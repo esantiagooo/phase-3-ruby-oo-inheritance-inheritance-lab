@@ -10,4 +10,7 @@ class Student < User
         @knowledge << knowledge
         # were pushing possible argument or strings into out empty knowledge variable which is empty
     end 
+    def knowledge
+        @knowledge
+    end
 end
